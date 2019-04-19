@@ -37,7 +37,7 @@ TODO: RxSwift封装了网络请求  包含网络请求，数据解析
   s.dependency 'SPModelProtocol', '~> 0.0.1'
   # https://github.com/TyroneSong/SPSpecs/tree/master/SPModelProtocol/0.0.1
 
-  s.dependency 'Alamofire', '~> 5.0.0-beta.5'
+  s.dependency 'Alamofire', '~> 4.8.2'
   s.dependency 'RxSwift', '~> 4.5.0'
   s.dependency 'RxCocoa', '~> 4.5.0'
   s.dependency 'Result', '~> 4.1.0'

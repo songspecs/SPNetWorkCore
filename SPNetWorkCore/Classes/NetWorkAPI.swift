@@ -24,7 +24,7 @@ public class NetWorkAPI {
     public var headers:HTTPHeaders = [
         "Accept": "application/json"
     ]
-    var alamofireManager: Session?
+    var alamofireManager: SessionManager?
     /// 单例模式
     public static var sharedInstance: NetWorkAPI {
         struct Static {
@@ -37,7 +37,7 @@ public class NetWorkAPI {
         let config = URLSessionConfiguration.default
         /// 设置请求超时时间
         config.timeoutIntervalForRequest = timeout
-        let manager = Session(configuration: config)
+        let manager = SessionManager(configuration: config)
         self.alamofireManager = manager
     }
     
