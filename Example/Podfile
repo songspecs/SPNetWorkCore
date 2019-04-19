@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPNetWorkCore_Example' do
+  pod 'SPNetWorkCore', :path => '../'
+
+  target 'SPNetWorkCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
